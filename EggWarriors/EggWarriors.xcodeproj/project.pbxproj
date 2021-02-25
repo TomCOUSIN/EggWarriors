@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E29A04ED25E789E700E1DF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A04EC25E789E700E1DF2D /* AppDelegate.swift */; };
+		E29A04F325E789E700E1DF2D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A04F225E789E700E1DF2D /* GameScene.swift */; };
+		E29A04F525E789E700E1DF2D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A04F425E789E700E1DF2D /* GameViewController.swift */; };
+		E29A04F825E789E700E1DF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29A04F625E789E700E1DF2D /* Main.storyboard */; };
+		E29A04FA25E789E800E1DF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29A04F925E789E800E1DF2D /* Assets.xcassets */; };
+		E29A050525E789E800E1DF2D /* EggWarriorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A050425E789E800E1DF2D /* EggWarriorsTests.swift */; };
+		E29A051025E789E800E1DF2D /* EggWarriorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A050F25E789E800E1DF2D /* EggWarriorsUITests.swift */; };
+		E29A052C25E78AB000E1DF2D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29A052B25E78AB000E1DF2D /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E29A050125E789E800E1DF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29A04E125E789E700E1DF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29A04E825E789E700E1DF2D;
+			remoteInfo = EggWarriors;
+		};
+		E29A050C25E789E800E1DF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29A04E125E789E700E1DF2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29A04E825E789E700E1DF2D;
+			remoteInfo = EggWarriors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E29A04E925E789E700E1DF2D /* EggWarriors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggWarriors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A04EC25E789E700E1DF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E29A04F225E789E700E1DF2D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E29A04F425E789E700E1DF2D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E29A04F725E789E700E1DF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E29A04F925E789E800E1DF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E29A04FB25E789E800E1DF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29A050025E789E800E1DF2D /* EggWarriorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggWarriorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A050425E789E800E1DF2D /* EggWarriorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggWarriorsTests.swift; sourceTree = "<group>"; };
+		E29A050625E789E800E1DF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29A050B25E789E800E1DF2D /* EggWarriorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggWarriorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29A050F25E789E800E1DF2D /* EggWarriorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggWarriorsUITests.swift; sourceTree = "<group>"; };
+		E29A051125E789E800E1DF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29A052B25E78AB000E1DF2D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29A04E625E789E700E1DF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A04FD25E789E800E1DF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A050825E789E800E1DF2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E29A04E025E789E700E1DF2D = {
+			isa = PBXGroup;
+			children = (
+				E29A04EB25E789E700E1DF2D /* EggWarriors */,
+				E29A050325E789E800E1DF2D /* EggWarriorsTests */,
+				E29A050E25E789E800E1DF2D /* EggWarriorsUITests */,
+				E29A04EA25E789E700E1DF2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29A04EA25E789E700E1DF2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29A04E925E789E700E1DF2D /* EggWarriors.app */,
+				E29A050025E789E800E1DF2D /* EggWarriorsTests.xctest */,
+				E29A050B25E789E800E1DF2D /* EggWarriorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29A04EB25E789E700E1DF2D /* EggWarriors */ = {
+			isa = PBXGroup;
+			children = (
+				E29A04F925E789E800E1DF2D /* Assets.xcassets */,
+				E29A052225E78A2600E1DF2D /* Bootstrap */,
+				E29A052625E78A3700E1DF2D /* Controllers */,
+				E29A052125E78A1300E1DF2D /* Protocols */,
+				E29A052025E78A0D00E1DF2D /* Scenes */,
+				E29A052A25E78A7000E1DF2D /* Storyboards */,
+			);
+			path = EggWarriors;
+			sourceTree = "<group>";
+		};
+		E29A050325E789E800E1DF2D /* EggWarriorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E29A050425E789E800E1DF2D /* EggWarriorsTests.swift */,
+				E29A050625E789E800E1DF2D /* Info.plist */,
+			);
+			path = EggWarriorsTests;
+			sourceTree = "<group>";
+		};
+		E29A050E25E789E800E1DF2D /* EggWarriorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E29A050F25E789E800E1DF2D /* EggWarriorsUITests.swift */,
+				E29A051125E789E800E1DF2D /* Info.plist */,
+			);
+			path = EggWarriorsUITests;
+			sourceTree = "<group>";
+		};
+		E29A052025E78A0D00E1DF2D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E29A04F225E789E700E1DF2D /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E29A052125E78A1300E1DF2D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E29A052225E78A2600E1DF2D /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				E29A04FB25E789E800E1DF2D /* Info.plist */,
+				E29A04EC25E789E700E1DF2D /* AppDelegate.swift */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		E29A052625E78A3700E1DF2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E29A04F425E789E700E1DF2D /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E29A052A25E78A7000E1DF2D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E29A04F625E789E700E1DF2D /* Main.storyboard */,
+				E29A052B25E78AB000E1DF2D /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29A04E825E789E700E1DF2D /* EggWarriors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29A051425E789E800E1DF2D /* Build configuration list for PBXNativeTarget "EggWarriors" */;
+			buildPhases = (
+				E29A04E525E789E700E1DF2D /* Sources */,
+				E29A04E625E789E700E1DF2D /* Frameworks */,
+				E29A04E725E789E700E1DF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggWarriors;
+			productName = EggWarriors;
+			productReference = E29A04E925E789E700E1DF2D /* EggWarriors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E29A04FF25E789E800E1DF2D /* EggWarriorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29A051725E789E800E1DF2D /* Build configuration list for PBXNativeTarget "EggWarriorsTests" */;
+			buildPhases = (
+				E29A04FC25E789E800E1DF2D /* Sources */,
+				E29A04FD25E789E800E1DF2D /* Frameworks */,
+				E29A04FE25E789E800E1DF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29A050225E789E800E1DF2D /* PBXTargetDependency */,
+			);
+			name = EggWarriorsTests;
+			productName = EggWarriorsTests;
+			productReference = E29A050025E789E800E1DF2D /* EggWarriorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E29A050A25E789E800E1DF2D /* EggWarriorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29A051A25E789E800E1DF2D /* Build configuration list for PBXNativeTarget "EggWarriorsUITests" */;
+			buildPhases = (
+				E29A050725E789E800E1DF2D /* Sources */,
+				E29A050825E789E800E1DF2D /* Frameworks */,
+				E29A050925E789E800E1DF2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29A050D25E789E800E1DF2D /* PBXTargetDependency */,
+			);
+			name = EggWarriorsUITests;
+			productName = EggWarriorsUITests;
+			productReference = E29A050B25E789E800E1DF2D /* EggWarriorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29A04E125E789E700E1DF2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E29A04E825E789E700E1DF2D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E29A04FF25E789E800E1DF2D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E29A04E825E789E700E1DF2D;
+					};
+					E29A050A25E789E800E1DF2D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E29A04E825E789E700E1DF2D;
+					};
+				};
+			};
+			buildConfigurationList = E29A04E425E789E700E1DF2D /* Build configuration list for PBXProject "EggWarriors" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E29A04E025E789E700E1DF2D;
+			productRefGroup = E29A04EA25E789E700E1DF2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29A04E825E789E700E1DF2D /* EggWarriors */,
+				E29A04FF25E789E800E1DF2D /* EggWarriorsTests */,
+				E29A050A25E789E800E1DF2D /* EggWarriorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29A04E725E789E700E1DF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29A052C25E78AB000E1DF2D /* Launch Screen.storyboard in Resources */,
+				E29A04F825E789E700E1DF2D /* Main.storyboard in Resources */,
+				E29A04FA25E789E800E1DF2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A04FE25E789E800E1DF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A050925E789E800E1DF2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29A04E525E789E700E1DF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29A04F325E789E700E1DF2D /* GameScene.swift in Sources */,
+				E29A04F525E789E700E1DF2D /* GameViewController.swift in Sources */,
+				E29A04ED25E789E700E1DF2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A04FC25E789E800E1DF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29A050525E789E800E1DF2D /* EggWarriorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29A050725E789E800E1DF2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29A051025E789E800E1DF2D /* EggWarriorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E29A050225E789E800E1DF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29A04E825E789E700E1DF2D /* EggWarriors */;
+			targetProxy = E29A050125E789E800E1DF2D /* PBXContainerItemProxy */;
+		};
+		E29A050D25E789E800E1DF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29A04E825E789E700E1DF2D /* EggWarriors */;
+			targetProxy = E29A050C25E789E800E1DF2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E29A04F625E789E700E1DF2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29A04F725E789E700E1DF2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E29A051225E789E800E1DF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E29A051325E789E800E1DF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29A051525E789E800E1DF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYP768W5M6;
+				INFOPLIST_FILE = EggWarriors/Bootstrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomcousin.EggWarriors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E29A051625E789E800E1DF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYP768W5M6;
+				INFOPLIST_FILE = EggWarriors/Bootstrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomcousin.EggWarriors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E29A051825E789E800E1DF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYP768W5M6;
+				INFOPLIST_FILE = EggWarriorsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomcousin.EggWarriorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggWarriors.app/EggWarriors";
+			};
+			name = Debug;
+		};
+		E29A051925E789E800E1DF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYP768W5M6;
+				INFOPLIST_FILE = EggWarriorsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomcousin.EggWarriorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EggWarriors.app/EggWarriors";
+			};
+			name = Release;
+		};
+		E29A051B25E789E800E1DF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYP768W5M6;
+				INFOPLIST_FILE = EggWarriorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomcousin.EggWarriorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggWarriors;
+			};
+			name = Debug;
+		};
+		E29A051C25E789E800E1DF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYP768W5M6;
+				INFOPLIST_FILE = EggWarriorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tomcousin.EggWarriorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EggWarriors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29A04E425E789E700E1DF2D /* Build configuration list for PBXProject "EggWarriors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A051225E789E800E1DF2D /* Debug */,
+				E29A051325E789E800E1DF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29A051425E789E800E1DF2D /* Build configuration list for PBXNativeTarget "EggWarriors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A051525E789E800E1DF2D /* Debug */,
+				E29A051625E789E800E1DF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29A051725E789E800E1DF2D /* Build configuration list for PBXNativeTarget "EggWarriorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A051825E789E800E1DF2D /* Debug */,
+				E29A051925E789E800E1DF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29A051A25E789E800E1DF2D /* Build configuration list for PBXNativeTarget "EggWarriorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29A051B25E789E800E1DF2D /* Debug */,
+				E29A051C25E789E800E1DF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29A04E125E789E700E1DF2D /* Project object */;
+}
