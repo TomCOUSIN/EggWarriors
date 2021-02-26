@@ -17,6 +17,12 @@ class GameViewController: UIViewController {
         if let skView = view as? SKView {
             skView.isMultipleTouchEnabled = false
 
+            #if DEBUG
+                skView.showsFPS = true
+                skView.showsPhysics = true
+                skView.showsNodeCount = true
+            #endif
+
             let scene = GameScene(size: view.bounds.size)
 
             skView.presentScene(scene)
