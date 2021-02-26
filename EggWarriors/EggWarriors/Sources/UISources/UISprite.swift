@@ -45,8 +45,8 @@ class UISprite: UINode {
             texture: texture)
     }
 
-    /// Initializes a new instance of UINode using the provided coder
-    /// - Parameter aDecoder: NSCoder to use to initialize UINode class
+    /// Initializes a new instance of UISprite using the provided coder
+    /// - Parameter aDecoder: NSCoder to use to initialize UISprite class
     /// - Remark: Should not be used
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
