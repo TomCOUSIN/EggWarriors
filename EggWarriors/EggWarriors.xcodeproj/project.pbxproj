@@ -13,6 +13,7 @@
 		E2254E3025E8CB0400F0D403 /* UINode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2254E2F25E8CB0400F0D403 /* UINode.swift */; };
 		E2254E3825E8D2C300F0D403 /* UISprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2254E3725E8D2C300F0D403 /* UISprite.swift */; };
 		E2254E3D25E8D71200F0D403 /* UIRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2254E3C25E8D71200F0D403 /* UIRectangle.swift */; };
+        E2254E4325E8E61B00F0D403 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2254E4225E8E61B00F0D403 /* Constants.swift */; };
 		E29A04ED25E789E700E1DF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A04EC25E789E700E1DF2D /* AppDelegate.swift */; };
 		E29A04F325E789E700E1DF2D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A04F225E789E700E1DF2D /* GameScene.swift */; };
 		E29A04F525E789E700E1DF2D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A04F425E789E700E1DF2D /* GameViewController.swift */; };
