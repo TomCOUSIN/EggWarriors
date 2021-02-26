@@ -20,7 +20,7 @@ class UISprite: UINode {
 
     // MARK: - Initializers
 
-    /// Initializes a new instance of UISprite with the provided position
+    /// Initializes a new instance of UISprite with the provided position and texture
     /// - Parameters:
     ///   - position: The position of the UISprite
     ///   - texture: The texture of the UISprite
@@ -34,7 +34,7 @@ class UISprite: UINode {
         self.addChild(self._sprite)
     }
 
-    /// Initializes a new instance of UISprite with the provided x and y position
+    /// Initializes a new instance of UISprite with the provided x and y position and texture
     /// - Parameters:
     ///   - positionX: x position of the UISprite
     ///   - positionY: y position of the UISprite
