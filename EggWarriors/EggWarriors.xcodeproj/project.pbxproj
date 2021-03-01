@@ -23,6 +23,7 @@
 		E29A050525E789E800E1DF2D /* EggWarriorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A050425E789E800E1DF2D /* EggWarriorsTests.swift */; };
 		E29A051025E789E800E1DF2D /* EggWarriorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29A050F25E789E800E1DF2D /* EggWarriorsUITests.swift */; };
 		E29A052C25E78AB000E1DF2D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29A052B25E78AB000E1DF2D /* Launch Screen.storyboard */; };
+		E2E48BAF25ECD3490077108D /* UIProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E48BAE25ECD3490077108D /* UIProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E29A050F25E789E800E1DF2D /* EggWarriorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggWarriorsUITests.swift; sourceTree = "<group>"; };
 		E29A051125E789E800E1DF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E29A052B25E78AB000E1DF2D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E2E48BAE25ECD3490077108D /* UIProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				E2254E3725E8D2C300F0D403 /* UISprite.swift */,
 				E2254E3C25E8D71200F0D403 /* UIRectangle.swift */,
 				E210DE8225EA322600F034FF /* UILabel.swift */,
+				E2E48BAE25ECD3490077108D /* UIProgressBar.swift */,
 			);
 			path = UISources;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				E2254E3D25E8D71200F0D403 /* UIRectangle.swift in Sources */,
 				E2254E3825E8D2C300F0D403 /* UISprite.swift in Sources */,
 				E29A04F525E789E700E1DF2D /* GameViewController.swift in Sources */,
+				E2E48BAF25ECD3490077108D /* UIProgressBar.swift in Sources */,
 				E2254E4325E8E61B00F0D403 /* Constants.swift in Sources */,
 				E29A04ED25E789E700E1DF2D /* AppDelegate.swift in Sources */,
 				E210DE8325EA322600F034FF /* UILabel.swift in Sources */,
