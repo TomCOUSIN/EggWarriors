@@ -10,22 +10,26 @@ import SpriteKit
 
 enum Constants {
 
-    enum UI {
+    enum UserInterface {
 
-        enum Color {
-
-            static let BaseColor: SKColor = SKColor.black
-        }
-
-        enum Rectangle {
-
-            static let MaximumHeight: CGFloat = 30
-            static let MaximumWidth: CGFloat = 370
-        }
     }
 
     enum Animation {
 
         static let BaseTime: CGFloat = 0.1
+    }
+}
+
+extension Constants.UserInterface {
+
+    enum Color {
+
+        static let BaseColor: SKColor = SKColor.black
+    }
+
+    enum Rectangle {
+
+        static let MaximumHeight: CGFloat = 30
+        static let MaximumWidth: CGFloat = 370
     }
 }
