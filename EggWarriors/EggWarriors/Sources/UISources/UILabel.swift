@@ -27,8 +27,6 @@ class UILabel: UINode {
 
         super.init(position: position)
 
-        self.position = position
-
         self.addChild(self._label)
     }
 
